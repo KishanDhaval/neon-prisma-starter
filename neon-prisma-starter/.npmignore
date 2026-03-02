@@ -1,0 +1,6 @@
+# Keep templates in the published package
+# (do not add templates/ here)
+
+.DS_Store
+*.log
+node_modules/

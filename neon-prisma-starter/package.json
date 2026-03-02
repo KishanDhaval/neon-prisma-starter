@@ -1,0 +1,31 @@
+{
+  "name": "neon-prisma-starter",
+  "version": "1.0.15",
+  "description": "CLI to scaffold a Node.js + Prisma + Neon project instantly",
+  "main": "bin/index.js",
+  "bin": {
+    "neon-prisma-starter": "bin/index.js",
+    "create-neon-app": "bin/index.js"
+  },
+  "scripts": {
+    "test": "node bin/index.js test-project"
+  },
+  "keywords": [
+    "neon",
+    "prisma",
+    "nodejs",
+    "express",
+    "postgresql",
+    "starter",
+    "cli",
+    "scaffold"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "ora": "^5.4.1",
+    "prompts": "^2.4.2"
+  }
+}
